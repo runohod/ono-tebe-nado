@@ -31,7 +31,6 @@
     font-size: 18px;
     font-style: normal;
     list-style-type: circle;
-    text-decoration: underline;
     text-underline-position: under;
     padding-top: 43px;
     padding-bottom: 34px;
@@ -47,7 +46,6 @@
   
   .header__links-list-item_no-bullit {
     list-style-type: none;
-    text-decoration: none;
   }
   
   .header__logo {
@@ -62,7 +60,7 @@
     height: 100%;
   }
   
-  .header__address {
+  .address {
     color: #000;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -243,23 +241,18 @@
   
   .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
   }
   
   .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
   }
   
   .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;}
+  }
 
-    .card-link {
-      text-decoration: none;
+  .card-link {
+     text-decoration: none;
     }
   
   .card__title {
@@ -303,7 +296,6 @@
     display: block;
     padding-top: 32px;
     padding-left: 40px;
-    margin-bottom: 182px;
     text-underline-position: under;
     text-decoration-thickness: 1px;
     background-color: transparent;
