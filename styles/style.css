@@ -69,7 +69,6 @@
     width: 240px;
     flex-shrink: 0;
     text-underline-position: under;
-    justify-self: end;
     align-self: center;
   }
   
@@ -385,7 +384,7 @@
     margin-right: 50px;
     margin-bottom: 90px;
     display: grid;
-    grid-template-columns: 240px 2fr 240px;
+    grid-template-columns: 1fr min-content 1fr;
   }
   
   .footer__menu {
