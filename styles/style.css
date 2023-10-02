@@ -71,6 +71,10 @@
     text-underline-position: under;
     align-self: center;
   }
+
+  .header_address {
+    justify-self: end;
+  }
   
   .cover {
     background-image: url(../images/cover.jpg);
